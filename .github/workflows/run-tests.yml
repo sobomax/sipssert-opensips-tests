@@ -30,7 +30,9 @@ jobs:
     steps:
 
     - name: Prepare SIPssert
-      uses: OpenSIPS/SIPssert/actions/Prepare_SIPssert@main
+      uses: sobomax/SIPssert/actions/Prepare_SIPssert@main
+      with:
+        sipssert-repo: sobomax/SIPssert
 
     - name: Run Test
       uses: ./sipssert/actions/Run_Test
