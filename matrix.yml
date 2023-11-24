@@ -9,6 +9,7 @@ test_set:
   - presence
   - record-route
   - registration
+  - rtpproxy
   - startup
   - stir-shaken
   - topology-hiding
